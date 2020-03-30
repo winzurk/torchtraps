@@ -1,6 +1,6 @@
-===========
-Torch Traps :leopard:
-===========
+=====================================
+Torch Traps :leopard: :camera_flash:
+=====================================
 
 
 .. image:: https://img.shields.io/pypi/v/torchtraps.svg
