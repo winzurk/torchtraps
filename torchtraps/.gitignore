@@ -1,0 +1,6 @@
+/lila/*
+!/lila/lila.txt
+/models/*
+!/models/models.txt
+.ipynb_checkpoints
+.idea
