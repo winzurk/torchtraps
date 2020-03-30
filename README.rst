@@ -1,5 +1,5 @@
 =====================================
-Torch Traps :leopard: :camera_flash:
+Torch Traps :leopard: :camera_flash: :zap: :fire:
 =====================================
 
 
@@ -15,7 +15,7 @@ Torch Traps :leopard: :camera_flash:
 
 
 
-Python package for running computer vision models on wildlife camera trap images.
+Python package for lighting fast wildlife camera trap image annotation based on PyTorch.
 
 
 * MIT license
