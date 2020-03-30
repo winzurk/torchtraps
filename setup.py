@@ -10,7 +10,19 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ ]
+requirements = [
+    'Pillow >= 7.0.0',
+    'barbar >= 0.2.1',
+    'jpeg4py >= 0.1.4',
+    'matplotlib >= 3.1.3',
+    'numpy >= 1.18.1',
+    'opencv_python >= 4.2.0.32',
+    'pandas >= 1.0.0',
+    'pycocotools >= 2.0.0',
+    'scikit_learn >= 0.22.1',
+    'scikit_plot >= 0.3.7',
+    'torch >= 1.4.0',
+    'torchvision >= 0.5.0']
 
 setup_requirements = [ ]
 
