@@ -1,5 +1,5 @@
 =====================================
-Torch Traps :leopard: :camera_flash: :zap: :fire:
+Torch Traps :leopard: :camera_flash:
 =====================================
 
 
@@ -15,7 +15,7 @@ Torch Traps :leopard: :camera_flash: :zap: :fire:
 
 
 
-Python package for lighting fast wildlife camera trap image annotation based on PyTorch.
+Python package for lighting :zap: fast wildlife camera trap image annotation based on PyTorch. :fire:
 
 
 * MIT license
