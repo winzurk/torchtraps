@@ -15,23 +15,34 @@ Torch Traps
 
 
 
-
 Python package for running computer vision models on wildlife camera trap images.
 
 
-* Free software: MIT license
+* MIT license
 * Documentation: https://torchtraps.readthedocs.io.
 
+Install
+--------
+.. code-block:: bash
+
+    $ pip install torchtraps
+
+Run on Folder of Images
+-------------------------------
+
+.. code-block:: python
+
+    import torchtraps as tt
+    from torchtraps.coco_camera_traps_loader import images_from_dir
+
+    images = images_from_dir('/PathToCameraTrapImageFolder/')
+    model = tt.get_model(task='classification', level='species')
+    tt.predict_to_csv(model, images, 'SavePredictions.csv')
 
 Features
 --------
 
-* TODO
+* Simple module for computer vision on camera trap images.
+* Based on PyTorch
 
-Credits
--------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
