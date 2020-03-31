@@ -40,11 +40,11 @@ Fast Inference on Folder of Images
 .. csv-table:: Example Output
     :header: "image", "prediction", "confidence"
 
-        "image1.jpg", 'jaguar', 0.99
-        "image2.jpg", 'empty', 0.98
-        "image3.jpg", 'agouti', 0.91
-        "image4.jpg", 'empty', 0.95
-        "image5.jpg", 'ocelot', 0.87
+        "image1.jpg", "jaguar", 0.99
+        "image2.jpg", "empty", 0.98
+        "image3.jpg", "agouti", 0.91
+        "image4.jpg", "empty", 0.95
+        "image5.jpg", "ocelot", 0.87
 
 
 
