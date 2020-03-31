@@ -14,7 +14,18 @@ Torch Traps :leopard: :camera_flash:
         :alt: Documentation Status
 
 
-Torch Traps is python package for lighting :zap: fast wildlife camera trap image annotation based on Deep Learning (in PyTorch). :fire:
+Torch Traps is python package for lighting :zap: fast wildlife camera trap image annotation based on PyTorch. :fire:
+
+Over the past several decades, biologists all over the world have widely adopted camera traps as a standard tool for
+monitoring biodiversity, resulting in backlogs often on the order of millions of images waiting to be manually reviewed
+by humans to assess wildlife population densities. The application of modern computer vision and deep learning methods
+to accelerate the processing of wildlife camera trap data has the potential to alleviate existing bottlenecks for large
+scale biodiversity monitoring, thus dramatically increasing the speed at which researchers can obtain data-driven
+insights about ecosystems, and ultimately leading to more efficient resource allocation and better informed policy
+making by NGOs and government agencies.
+
+Torch Traps aims to provide a simple tool (as little as 1 line of code) to bring state-of-the-art computer vision models
+into the hands of biologists to accelerate the speed at which they can review camera trap imagery.
 
 
 * MIT license
@@ -30,7 +41,8 @@ Fast Inference on Folder of Images
 -------------------------------------------------
 
 Classify an entire folder of camera trap images in one line of code by simply passing the relative path to the folder
-containing images. Outputs are automatically saved to a csv file which can be further processed opened in an application like Excel.
+containing images. Outputs are automatically saved to a csv file which can be further processed opened in an application
+like Excel.
 
 .. code-block:: python
 
