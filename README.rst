@@ -14,8 +14,7 @@ Torch Traps :leopard: :camera_flash:
         :alt: Documentation Status
 
 
-
-Python package for lighting :zap: fast wildlife camera trap image annotation based on PyTorch. :fire:
+Torch Traps is python package for lighting :zap: fast wildlife camera trap image annotation based on Deep Learning (in PyTorch). :fire:
 
 
 * MIT license
@@ -30,8 +29,8 @@ Install
 Fast Inference on Folder of Images
 -------------------------------------------------
 
-Classify an entire folder of camera trap images in one line of code by passing the path to the folder.
-Outputs are automatically saved to a csv file which can be further processed opened in an application like Excel.
+Classify an entire folder of camera trap images in one line of code by simply passing the relative path to the folder
+containing images. Outputs are automatically saved to a csv file which can be further processed opened in an application like Excel.
 
 .. code-block:: python
 
@@ -40,7 +39,7 @@ Outputs are automatically saved to a csv file which can be further processed ope
     kachow('path/to/image/folder')
 
 
-.. csv-table:: Example Output
+.. csv-table:: Example Output File
     :header: "image", "prediction", "confidence"
 
         "image1.jpg", "jaguar", 0.99
