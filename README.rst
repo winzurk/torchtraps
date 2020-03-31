@@ -30,11 +30,14 @@ Install
 Fast Inference on Folder of Images
 -------------------------------------------------
 
+Classify an entire folder of camera trap images in one line of code by passing the path to the folder.
+Outputs are automatically saved to a csv file which can be further processed opened in an application like Excel.
+
 .. code-block:: python
 
-    import torchtraps
+    import torchtraps.lightning import kachow
 
-    torchtraps.lightning.kachow('path/to/image/folder')
+    kachow('path/to/image/folder')
 
 
 .. csv-table:: Example Output
@@ -52,6 +55,7 @@ Features
 --------
 
 * Module for fast computer vision on camera trap images.
+* Train and fine-tune classification models on your own dataset.
 * Based on PyTorch
 
 
