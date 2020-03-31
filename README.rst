@@ -93,11 +93,6 @@ me at zwinzurk@asu.edu
     .. image:: tutorial/AnacondaDownload.jpg
         :width: 300
 
-    After download is complete, double-click and follow installation instructions.
-
-    .. image:: tutorial/InstallAnaconda.jpg
-        :width: 300
-
     Why do I need Anaconda?
 
         Torch Traps is a module written in Python (a programming language), so we first need to have Python installed
@@ -105,24 +100,46 @@ me at zwinzurk@asu.edu
         pre-installed with many of the common modules used for Data Science, and optionally comes with a GUI which can
         be used to open notebooks.
 
+    After download is complete, double-click to install and follow installation instructions.
+
+    .. image:: tutorial/InstallAnaconda.jpg
+        :width: 300
+
+
 * Step 2: Open Anaconda Navigator
+
+    After installing Anaconda, open the Anaconda Navigator application on your computer.
 
     .. image:: tutorial/OpenNavigator.jpg
         :width: 300
 
 * Step 3: Launch Jupyter Lab
 
+    We will then launch a Jupyter Lab. Your web browser will open but the Jupyter server is running locally as you can
+    see the url should be http://localhost:8889/lab
+
     .. image:: tutorial/LaunchJupyter.jpg
         :width: 300
 
 * Step 4: Navigate to Working Folder on Left
 
+    By clicking on the folder icon in the upper-left corner we can navigate the file system.
+
+    Navigate to the directory on your computer where your camera trap image folder is located.
+
 * Step 5: Open Python3 Notebook
+
+    Now that we are working in the right directory, we can launch a new Python notebook. This will create a new file in
+    our working directory called Untitled.ipynb. We can right-click on the file name to re-name it.
 
     .. image:: tutorial/CreateNotebook.jpg
         :width: 300
 
 * Step 6: Install Torch Traps
+
+    Jupyter notebooks allow us to run python code one 'cell' at a time. So the first thing we need to do is install
+    torch traps, if we have not before. Copy the code below into the first cell, and then run the cell by either
+    clicking the play button or hitting SHIFT+ENTER at the same.
 
     .. code-block:: bash
 
@@ -132,6 +149,17 @@ me at zwinzurk@asu.edu
         :width: 300
 
  * Step 7: Run Torch Traps on Folder of Images
+
+    Now that the Torch Traps is installed, you can copy the code below into a new code cell.
+
+    Change the 'path/to/image/folder' to the name of your folder containing camera trap images (ex. 'camera_trap_images')
+
+    Run the cell. (SHIFT + ENTER)
+
+    Note: If running for the first time, an internet connection will be required to download the model file.
+
+    When complete an output.csv file will appear in the directory you are working in. You can double-click csv files to
+    view in Jupyter Lab or open with another application like Excel.
 
     .. code-block:: python
 
@@ -143,6 +171,8 @@ me at zwinzurk@asu.edu
         :width: 300
 
 * Step 8: Open CSV File To See Classification Results
+
+.. Future: Step 9: View Images of Particular Class
 
 
 
