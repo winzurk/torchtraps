@@ -76,3 +76,66 @@ Features
 * MIT license
 
 
+Complete Installation Tutorial from Scratch
+--------
+This is a full tutorial on how to install and get up and running with Torch Traps. Zero programming knowledge is
+assumed in the attempt to make Torch Traps as accessible as possible. If you do run into any problems, please email
+me at zwinzurk@asu.edu
+
+* Step 1: Install Anaconda
+
+    Go to https://www.anaconda.com/distribution/
+
+    Download Anaconda Python 3.7 version for the operating system you are using (Windows, MacOS, or Linux).
+
+    Click on 64-Bit Graphical Installer (442 MB) to download the version with a Graphical User Interface.
+
+    .. image:: tutorial/AnacondaDownload.jpg
+        :width: 300
+
+    After download is complete, double-click and follow installation instructions.
+
+    Why do I need Anaconda?
+
+        Torch Traps is a module written in Python (a programming language), so we first need to have Python installed
+        on our computer. There are several ways to install python, but Anaconda allows us to install Python and it comes
+        pre-installed with many of the common modules used for Data Science, and optionally comes with a GUI which can
+        be used to open notebooks.
+
+* Step 2: Open Anaconda Navigator
+
+* Step 3: Launch Jupyter Lab
+
+* Step 4: Go To Desktop
+
+* Step 5: Open Python3 Notebook
+
+* Step 6: Install Torch Traps
+
+    .. code-block:: python
+
+        !pip install torch traps
+
+ * Step 7:
+
+    .. code-block:: python
+
+        import torchtraps.lightning import kachow
+        kachow('path/to/image/folder')
+
+* Step 8: Open CSV File To See Classification Results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
