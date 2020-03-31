@@ -95,6 +95,9 @@ me at zwinzurk@asu.edu
 
     After download is complete, double-click and follow installation instructions.
 
+    .. image:: tutorial/InstallAnaconda.jpg
+        :width: 300
+
     Why do I need Anaconda?
 
         Torch Traps is a module written in Python (a programming language), so we first need to have Python installed
@@ -104,17 +107,29 @@ me at zwinzurk@asu.edu
 
 * Step 2: Open Anaconda Navigator
 
+    .. image:: tutorial/OpenNavigator.jpg
+        :width: 300
+
 * Step 3: Launch Jupyter Lab
 
-* Step 4: Go To Desktop
+    .. image:: tutorial/LaunchJupyter.jpg
+        :width: 300
+
+* Step 4: Navigate to Working Folder
 
 * Step 5: Open Python3 Notebook
 
+    .. image:: tutorial/LaunchJupyter.jpg
+        :width: 300
+
 * Step 6: Install Torch Traps
 
-    .. code-block:: python
+    .. code-block:: bash
 
         !pip install torch traps
+
+    .. image:: tutorial/InstallTorchTraps.jpg
+        :width: 300
 
  * Step 7:
 
@@ -122,6 +137,10 @@ me at zwinzurk@asu.edu
 
         import torchtraps.lightning import kachow
         kachow('path/to/image/folder')
+
+
+    .. image:: tutorial/RunTorchTraps.jpg
+        :width: 300
 
 * Step 8: Open CSV File To See Classification Results
 
