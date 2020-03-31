@@ -184,7 +184,7 @@ me at zwinzurk@asu.edu
 Acknowledgements
 ----------------------------------------------
 This project is a part of an undergraduate Capstone project in the Biomedical Informatics department at Arizona State
-University, and was advised by Dr. Jianming Liang.
+University, and was advised by `Dr. Jianming Liang <https://chs.asu.edu/jianming-liang>`_
 
 License: MIT
 
