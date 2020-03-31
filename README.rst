@@ -35,7 +35,9 @@ into the hands of biologists to accelerate the speed at which they can review ca
 
 
 * Documentation: https://torchtraps.readthedocs.io.
-* Tutorial: 'Complete Installation Tutorial from Scratch'_
+* GitHub: https://github.com/winzurk/torchtraps
+* PyPI: https://pypi.python.org/pypi/torchtraps
+* MIT License
 
 Install
 --------
