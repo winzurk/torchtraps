@@ -17,7 +17,7 @@ Torch Traps :leopard: :camera_flash:
 Torch Traps is python package for lighting :zap: fast wildlife camera trap image annotation based on PyTorch. :fire:
 
 .. image:: torchtraps/sample_images/NJP-2.JPG
-        :width: 600
+        :width: 300
 
 Photo Credit: Northern Jaguar Project
 
