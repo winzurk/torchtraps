@@ -14,7 +14,7 @@ Torch Traps :leopard: :camera_flash:
         :alt: Documentation Status
 
 
-Torch Traps is python package for lighting :zap: fast wildlife camera trap image annotation based on PyTorch. :fire:
+Torch Traps is python package for *lighting* :zap: *fast* wildlife camera trap image annotation based on PyTorch. :fire:
 
 .. image:: torchtraps/sample_images/NJP-2.JPG
         :target: https://github.com/winzurk/torchtraps/blob/master/torchtraps/sample_images/NJP-2.JPG
@@ -35,6 +35,7 @@ into the hands of biologists to accelerate the speed at which they can review ca
 
 
 * Documentation: https://torchtraps.readthedocs.io.
+* Tutorial: 'Complete Installation Tutorial from Scratch'_
 
 Install
 --------
@@ -77,7 +78,7 @@ Features
 
 
 Complete Installation Tutorial from Scratch
---------
+----------------------------------------------
 This is a full tutorial on how to install and get up and running with Torch Traps. Zero programming knowledge is
 assumed in the attempt to make Torch Traps as accessible as possible. If you do run into any problems, please email
 me at zwinzurk@asu.edu
@@ -95,7 +96,7 @@ me at zwinzurk@asu.edu
 
     Why do I need Anaconda?
 
-        Torch Traps is a module written in Python (a programming language), so we first need to have Python installed
+        Torch Traps is a module written in `Python <http://www.python.org/>`_ (a programming language), so we first need to have Python installed
         on our computer. There are several ways to install python, but Anaconda allows us to install Python and it comes
         pre-installed with many of the common modules used for Data Science, and optionally comes with a GUI which can
         be used to open notebooks.
