@@ -115,11 +115,11 @@ me at zwinzurk@asu.edu
     .. image:: tutorial/LaunchJupyter.jpg
         :width: 300
 
-* Step 4: Navigate to Working Folder
+* Step 4: Navigate to Working Folder on Left
 
 * Step 5: Open Python3 Notebook
 
-    .. image:: tutorial/LaunchJupyter.jpg
+    .. image:: tutorial/CreateNotebook.jpg
         :width: 300
 
 * Step 6: Install Torch Traps
@@ -131,7 +131,7 @@ me at zwinzurk@asu.edu
     .. image:: tutorial/InstallTorchTraps.jpg
         :width: 300
 
- * Step 7:
+ * Step 7: Run Torch Traps on Folder of Images
 
     .. code-block:: python
 
@@ -143,6 +143,7 @@ me at zwinzurk@asu.edu
         :width: 300
 
 * Step 8: Open CSV File To See Classification Results
+
 
 
 
