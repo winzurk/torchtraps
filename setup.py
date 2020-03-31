@@ -18,12 +18,13 @@ requirements = [
     'numpy >= 1.18.1',
     'opencv_python >= 4.2.0.32',
     'pandas >= 1.0.0',
-    'Cython',
-    'pycocotools >= 2.0.0',
     'scikit_learn >= 0.22.1',
     'scikit_plot >= 0.3.7',
     'torch >= 1.4.0',
     'torchvision >= 0.5.0']
+
+#     'Cython',
+#     'pycocotools >= 2.0.0',
 
 setup_requirements = [ ]
 
