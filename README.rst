@@ -27,7 +27,8 @@ Torch Traps is python package for *lighting* :zap: *fast* wildlife camera trap i
         :target: https://github.com/winzurk/torchtraps/blob/master/torchtraps/sample_images/NJP-2.JPG
         :width: 300
 
-Photo Credit: Northern Jaguar Project
+Photo Credit: `Northern Jaguar Project <https://www.northernjaguarproject.org>`_
+
 
 Over the past several decades, biologists all over the world have widely adopted camera traps as a standard tool for
 monitoring biodiversity, resulting in backlogs often on the order of millions of images waiting to be manually reviewed
@@ -37,7 +38,7 @@ scale biodiversity monitoring, thus dramatically increasing the speed at which r
 insights about ecosystems, and ultimately leading to more efficient resource allocation and better informed policy
 making by NGOs and government agencies.
 
-Torch Traps aims to provide a simple tool (as little as 1 line of code) to bring state-of-the-art computer vision models
+Torch Traps aims to provide a simple tool (as little as 1 line of python code) to bring state-of-the-art computer vision models
 into the hands of biologists to accelerate the speed at which they can review camera trap imagery.
 
 
@@ -47,8 +48,8 @@ Install
 
     $ pip install torchtraps
 
-Fast Inference on Folder of Images
--------------------------------------------------
+Quickly Classify a Folder of Camera Trap Images
+----------------------------------------------------
 
 Classify an entire folder of camera trap images in one line of code by simply passing the relative path to the folder
 containing images. Outputs are automatically saved to a csv file which can be further processed opened in an application
@@ -168,7 +169,7 @@ me at zwinzurk@asu.edu
 
     .. code-block:: python
 
-        import torchtraps.lightning import kachow
+        from torchtraps.lightning import kachow
         kachow('path/to/image/folder')
 
 
@@ -179,6 +180,13 @@ me at zwinzurk@asu.edu
 
 .. Future: Step 9: View Images of Particular Class
 
+
+Acknowledgements
+----------------------------------------------
+This project is a part of an undergraduate Capstone project in the Biomedical Informatics department at Arizona State
+University, and was advised by Dr. Jianming Liang.
+
+License: MIT
 
 
 
