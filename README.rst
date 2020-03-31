@@ -73,13 +73,13 @@ like Excel.
 
 
 
-Features
---------
+Advanced Features
+---------------------
 
-* Module for fast computer vision on camera trap images.
-* Train and fine-tune classification models on your own dataset.
-* Based on PyTorch
-* MIT license
+* Training and fine-tune classification models on your own images. (Coming soon)
+* Animal and Species Detection. (Coming soon)
+* Visualize embeddings with t-SNE. (Coming soon)
+
 
 
 Complete Installation Tutorial from Scratch
@@ -178,12 +178,14 @@ me at zwinzurk@asu.edu
 
 * Step 8: Open CSV File To See Classification Results
 
-.. Future: Step 9: View Images of Particular Class
+* Step 9: Parameters
+
+* Step 10: View Images of Particular Class (Coming Soon)
 
 
 Acknowledgements
 ----------------------------------------------
-This project is a part of an undergraduate Capstone project in the Biomedical Informatics department at Arizona State
+This project is a part of an undergraduate capstone project in the Biomedical Informatics department at Arizona State
 University, and was advised by `Dr. Jianming Liang <https://chs.asu.edu/jianming-liang>`_
 
 License: MIT
