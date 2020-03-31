@@ -27,22 +27,31 @@ Install
 
     $ pip install torchtraps
 
-Run on Folder of Images
--------------------------------
+Inference on Folder of Images
+-------------------------------------------------
 
 .. code-block:: python
 
-    import torchtraps as tt
-    from torchtraps.coco_camera_traps_loader import images_from_dir
+    import torchtraps
 
-    images = images_from_dir('/PathToCameraTrapImageFolder/')
-    model = tt.get_model(task='classification', level='species')
-    tt.predict_to_csv(model, images, 'SavePredictions.csv')
+    path = 'path/to/image/folder'
+    torchtraps.kachow(path, output_name='output.csv')
+
+.. csv-table:: Example Output
+    :header: "image", "prediction", "confidence"
+    :widths: 15, 10, 30
+    "image1.jpg", 'jaguar', 0.99
+    "image2.jpg", 'empty', 0.98
+    "image3.jpg", 'agouti', 0.91
+    "image4.jpg", 'empty', 0.95
+    "image5.jpg", 'ocelot', 0.87
+
+
 
 Features
 --------
 
-* Simple module for computer vision on camera trap images.
+* Module for fast computer vision on camera trap images.
 * Based on PyTorch
 
 
