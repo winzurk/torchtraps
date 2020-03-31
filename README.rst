@@ -25,6 +25,7 @@ Torch Traps is python package for *lighting* :zap: *fast* wildlife camera trap i
 
 .. image:: https://github.com/winzurk/torchtraps/blob/master/torchtraps/sample_images/NJP-2.JPG
         :target: https://github.com/winzurk/torchtraps/blob/master/torchtraps/sample_images/NJP-2.JPG
+        :alt: " "
         :width: 300
 
 Photo Credit: `Northern Jaguar Project <https://www.northernjaguarproject.org>`_
@@ -97,6 +98,7 @@ me at zwinzurk@asu.edu
     Click on 64-Bit Graphical Installer (442 MB) to download the version with a Graphical User Interface.
 
     .. image:: tutorial/AnacondaDownload.jpg
+        :alt: " "
         :width: 300
 
     Why do I need Anaconda?
@@ -109,6 +111,7 @@ me at zwinzurk@asu.edu
     After download is complete, double-click to install and follow installation instructions.
 
     .. image:: tutorial/InstallAnaconda.jpg
+        :alt: " "
         :width: 300
 
 
@@ -117,6 +120,7 @@ me at zwinzurk@asu.edu
     After installing Anaconda, open the Anaconda Navigator application on your computer.
 
     .. image:: tutorial/OpenNavigator.jpg
+        :alt: " "
         :width: 300
 
 * Step 3: Launch Jupyter Lab
@@ -125,6 +129,7 @@ me at zwinzurk@asu.edu
     see the url should be http://localhost:8889/lab
 
     .. image:: tutorial/LaunchJupyter.jpg
+        :alt: " "
         :width: 300
 
 * Step 4: Navigate to Working Folder on Left
@@ -139,6 +144,7 @@ me at zwinzurk@asu.edu
     our working directory called Untitled.ipynb. We can right-click on the file name to re-name it.
 
     .. image:: tutorial/CreateNotebook.jpg
+        :alt: " "
         :width: 300
 
 * Step 6: Install Torch Traps
@@ -152,6 +158,7 @@ me at zwinzurk@asu.edu
         !pip install torch traps
 
     .. image:: tutorial/InstallTorchTraps.jpg
+        :alt: " "
         :width: 300
 
  * Step 7: Run Torch Traps on Folder of Images
@@ -174,6 +181,7 @@ me at zwinzurk@asu.edu
 
 
     .. image:: tutorial/RunTorchTraps.jpg
+        :alt: " "
         :width: 300
 
 * Step 8: Open CSV File To See Classification Results
