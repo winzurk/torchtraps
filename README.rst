@@ -34,7 +34,7 @@ Fast Inference on Folder of Images
 
     import torchtraps
 
-    torchtraps.kachow('path/to/image/folder')
+    torchtraps.lightning.kachow('path/to/image/folder')
 
 
 .. csv-table:: Example Output
