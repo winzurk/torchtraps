@@ -27,15 +27,14 @@ Install
 
     $ pip install torchtraps
 
-Inference on Folder of Images
+Fast Inference on Folder of Images
 -------------------------------------------------
 
 .. code-block:: python
 
     import torchtraps
 
-    path = 'path/to/image/folder'
-    torchtraps.kachow(path, output_name='output.csv')
+    torchtraps.kachow('path/to/image/folder')
 
 
 .. csv-table:: Example Output
