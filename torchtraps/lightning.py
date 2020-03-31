@@ -20,6 +20,7 @@ def load_one_image(path_to_image, resize_dim=(300, 500)):
     image = Image.open(path_to_image).convert('RGB')
     image = TF.resize(image, resize_dim)
     image = TF.to_tensor(image)
+    image = TF.normalize(image, mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     image = torch.unsqueeze(image, 0)
     return image
 
@@ -35,7 +36,7 @@ def get_images_from_dir(path_to_dir):
 def predict(image_list, rel_path, labels):
     """returns predictions on a list of input images"""
     preds_list = []
-    model = torchvision.models.resnet18(pretrained=True)
+    model = torchvision.models.resnet50(pretrained=True)
     model.eval()
     for i in image_list:
         image_path = f'{rel_path}/{i}'
